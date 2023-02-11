@@ -31,7 +31,8 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
       - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
+      # - { label: "Body", name: "body", widget: "markdown" }　// markdownだと日本語入力がおかしくなる
+      - { label: "Body", name: "body", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list" }
 
   - name: "pages"
